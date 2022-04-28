@@ -1,0 +1,68 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    margin: 2rem 0;
+    max-width: 100%;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.headers {
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.headers_small {
+    font-size: 0.8rem;
+    font-weight: 300;
+    letter-spacing: 0.2rem;
+    margin-bottom: 1rem;
+}
+
+.headers_big {
+    font-size: 4rem;
+    font-weight: 800;
+    margin-bottom: 2rem;
+}
+
+.img {
+    position: relative;
+}
+
+.img_bottom {
+    top: -175px;
+    left: -460px;
+}
+
+.img_top {
+    top: -335px;
+    left: 300px;
+}
+
+.slick-img {
+    width: 410px;
+    height: 400px;
+    margin-right: 2rem;
+}
+
+.slick-btn {
+    background: transparent;
+    border: none;
+}
+
+.slick-slider {
+    display: flex;
+    flex-direction: row;
+}
+
+.slick-prev:before {
+    content: url(./img/arrow1.png);
+}
+
+
+.slick-next:before {
+    content: url(./img/arrow2.png);
+
+}
