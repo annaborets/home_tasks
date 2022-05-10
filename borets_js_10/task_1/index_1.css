@@ -1,0 +1,25 @@
+.tabs__tabcontent[aria-hidden=true] {
+    display: none;
+}
+
+.tabs__link {
+    text-decoration: none;
+}
+
+.tabs__link:focus,
+.tabs__link:hover,
+.tabs__link:active,
+.tabs__link[aria-selected="true"] {
+    color: #f00;
+}
+
+.invisible {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
