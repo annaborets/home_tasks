@@ -1,0 +1,17 @@
+.resizable {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    position: relative;
+}
+
+.resizer {
+    content: '';
+    width: 10px;
+    height: 10px;
+    background-color: yellow;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    cursor: nwse-resize;
+}
