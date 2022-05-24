@@ -1,0 +1,50 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 250px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: gray;
+    padding: 20px;
+    border-radius: 7%;
+}
+
+.screen {
+    border: 2px solid black;
+    height: 70px;
+    margin-bottom: 20px;
+    background-color: white;
+    color: black;
+    font-size: 3em;
+    text-align: end;
+    padding: 0 15px;
+    vertical-align: center;
+}
+
+.keys {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.col {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.keys__item {
+    width: 40px;
+    height: 40px;
+    border-radius: 20%;
+    font-size: 1.5em;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.gray {
+    background-color: lightgray;
+}

@@ -1,0 +1,26 @@
+.footer {
+    background-color: beige;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 0 20px;
+}
+
+ul li {
+    list-style: none;
+    background-color: rosybrown;
+    color: white;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    margin: 25px 0;
+    padding: 0;
+}
+
+li:hover {
+    opacity: 0.6;
+}

@@ -1,0 +1,55 @@
+.main {
+    background-color: bisque;
+    height: 800px;
+    padding: 50px 0;
+    font-size: 1.3rem;
+}
+
+.prodCont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.prodClass {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.btn {
+    margin-right: 15px;
+}
+
+.className {
+    margin-left: 54px;
+
+}
+
+h2 {
+    margin-bottom: 70px;
+}
+
+.checkoutBtn {
+    margin-bottom: 60px;
+    width: 200px;
+    height: 70px;
+    font-size: 1.5rem;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    background-color: rgb(204, 146, 87);
+}
+
+.checkoutBtn:disabled {
+    color: gray;
+    background-color: #fff;
+    cursor: not-allowed;
+}
+
+.total {
+    font-weight: bold;
+    color: rgb(148, 83, 19);
+    font-size: 1.5rem;
+}
