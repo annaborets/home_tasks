@@ -1,0 +1,57 @@
+.container {
+    background-color: rosybrown;
+    min-height: 550px;
+    font-size: 2rem;
+    padding: 150px 400px;
+
+}
+
+.burgerInfo {
+    padding-top: 50px;
+}
+
+.border {
+    background-color: peachpuff;
+    opacity: 60%;
+    padding: 20px 50px;
+
+    /* margin: 150px 250px; */
+    border-radius: 25px;
+}
+
+.txt {
+    font-weight: 600;
+    padding: 15px 0;
+    font-weight: 2.5rem;
+}
+
+.input {
+    width: 120px;
+    height: 45px;
+    /* font-size: 1.2rem; */
+    margin-right: 15px;
+    padding: 0;
+    text-align: center;
+}
+
+.btn_1 {
+    width: 130px;
+    height: 50px;
+    padding: 0;
+    cursor: pointer;
+    margin-right: 15px;
+    background-color: rosybrown;
+    border: 2px solid bisque;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    color: bisque;
+    font-size: 1rem;
+    border-radius: 20px;
+}
+
+.mr {
+    margin-right: 40px;
+}
+
+.mb {
+    margin-bottom: 20px;
+}
