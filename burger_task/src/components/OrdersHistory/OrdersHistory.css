@@ -1,0 +1,36 @@
+.backBtn {
+    position: absolute;
+    right: 15px;
+    top: 20px;
+    background-color: rosybrown;
+    color: beige;
+    width: 80px;
+    height: 30px;
+    font-size: larger;
+    border: 1px solid peachpuff;
+    margin: 20px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.historyMain {
+    background-color: bisque;
+    min-height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    height: 100vh;
+}
+
+.historyItem {
+    font-size: 1rem;
+    max-height: 250px;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100px;
+    justify-content: space-evenly;
+    border: 2px solid rosybrown;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+}

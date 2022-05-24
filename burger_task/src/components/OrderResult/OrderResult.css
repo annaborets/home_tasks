@@ -1,0 +1,12 @@
+.resultsItem {
+    background-color: peachpuff;
+    height: 800px;
+    padding: 100px;
+    font-size: 2rem;
+    border-top: 5px solid rosybrown;
+}
+
+.errorMsg {
+    color: darkred;
+    padding-top: 20px;
+}
